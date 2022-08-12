@@ -44,6 +44,8 @@ ul {
 .about {
   display: flex;
   margin: 3rem 0;
+  height: 60vh;
+  align-items: center;
 }
 .about h1 {
   font-size: 4rem;
@@ -188,11 +190,19 @@ ul {
   font-weight: 600;
   font-size: 1.3rem;
 }
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}
 @media (max-width: 540px) {
   .about {
     flex-direction: column;
     padding-right: 1rem;
     padding-left: 1rem;
+    height: auto;
   }
   .contact-info .contact-desc {
     font-size: 1rem;

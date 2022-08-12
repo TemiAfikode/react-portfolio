@@ -17,14 +17,6 @@ export default function AboutMe() {
         </p>
         <button>Hire me!</button>
       </div>
-
-      {/* <h1 id='skills'>My Skills</h1>
-
-      <ul>
-        <li>PHP</li>
-        <li>Laravel</li>
-        <li>MySQL</li>
-      </ul> */}
     </div>
   );
 }

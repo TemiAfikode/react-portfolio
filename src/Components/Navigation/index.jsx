@@ -5,7 +5,7 @@ export default function Navigation() {
     <nav className='navbar navbar-expand-lg navbar-light sticky-top'>
       <div className='container'>
         <a className='navbar-brand' href='#/'>
-          My Portfolio
+          TemiAfikode
         </a>
         <button
           className='navbar-toggler'
@@ -20,11 +20,6 @@ export default function Navigation() {
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav d-flex'>
-            <li className='nav-item'>
-              <a className='nav-link active' aria-current='page' href='#/'>
-                Home
-              </a>
-            </li>
             <li className='nav-item'>
               <a className='nav-link' href='#skills'>
                 Skills
