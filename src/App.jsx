@@ -4,20 +4,22 @@ import AboutMe from './Components/AboutMe';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact/index';
+import Skills from './Components/Skills';
 
 import './App.css';
 
 function App() {
   return (
     <>
-    <Navigation />
-    <div className='container'>
-      <AboutMe />
-      <ExperienceList />
-      <ProjectList />
-      <Contact />
-    </div>
-    <Footer />
+      <Navigation />
+      <div className='container'>
+        <AboutMe />
+        <Skills />
+        <ExperienceList />
+        <ProjectList />
+        <Contact />
+      </div>
+      <Footer />
     </>
   );
 }

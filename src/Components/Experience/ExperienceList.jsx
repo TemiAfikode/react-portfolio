@@ -30,7 +30,9 @@ export default function ExperienceList() {
 
   return (
     <div className='experience' id='experiences'>
-      <h1 className='heading'>Experiences</h1>
+      <div className='heading-wrapper'>
+        <h1 className='heading'>Experiences</h1>
+      </div>
       <ul className='grid'>
         {experiences.map((exp, i) => (
           <ExperienceItem key={i} values={exp} />

@@ -30,7 +30,9 @@ export default function ProjectList() {
 
   return (
     <div className='experience' id='projects'>
-      <h1 className='heading'>Projects</h1>
+      <div className='heading-wrapper'>
+        <h1 className='heading'>Projects</h1>
+      </div>
       <ul className='grid'>
         {projects.map((exp, i) => (
           <ProjectItem key={i} values={exp} />

@@ -1,7 +1,9 @@
 export default function Contact() {
   return (
     <div className='container mb-5' id='contact'>
-      <h1 classNAme='mb-5'>Contact Me</h1>
+      <div className='heading-wrapper'>
+        <h1 className='heading'>Contact Me</h1>
+      </div>
       <div className='row'>
         <div className='col-12 col-md-6 contact-info'>
           <p className='contact-desc'>
@@ -9,10 +11,12 @@ export default function Contact() {
             <br /> will respond to your email as soon as possible
           </p>
           <p>
-            Email: <span>babalolaife@yahoo.com</span>
+            <span className='card-badge'> Email: </span>
+            <span>babalolaife@yahoo.com</span>
           </p>
           <p>
-            Phone: <span>+1 (437) 223-4327</span>
+            <span className='card-badge'>Phone:</span>{' '}
+            <span>+1 (437) 223-4327</span>
           </p>
         </div>
         <div className='col-12 col-md-6'>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navigation() {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+    <nav className='navbar navbar-expand-lg navbar-light sticky-top'>
       <div className='container'>
         <a className='navbar-brand' href='#/'>
           My Portfolio
