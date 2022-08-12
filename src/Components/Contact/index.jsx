@@ -3,7 +3,7 @@ export default function Contact() {
     <div className='container mb-5' id='contact'>
       <h1 classNAme='mb-5'>Contact Me</h1>
       <div className='row'>
-        <div className='col-6 contact-info'>
+        <div className='col-12 col-md-6 contact-info'>
           <p className='contact-desc'>
             Thank you for contacting,
             <br /> will respond to your email as soon as possible
@@ -15,7 +15,7 @@ export default function Contact() {
             Phone: <span>+1 (437) 223-4327</span>
           </p>
         </div>
-        <div className='col-6'>
+        <div className='col-12 col-md-6'>
           <form onSubmit={(e) => e.preventDefault()}>
             <div className='mb-3'>
               <label for='formGroupExampleInput' className='form-label'>
