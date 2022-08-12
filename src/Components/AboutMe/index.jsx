@@ -12,7 +12,7 @@ export default function AboutMe() {
         dis parturient montes, nascetur ridiculus mus.
       </p>
 
-      <h3>My Skills</h3>
+      <h3 id='skills'>My Skills</h3>
 
       <ul>
         <li>PHP</li>

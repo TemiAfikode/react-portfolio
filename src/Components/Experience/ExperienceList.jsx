@@ -29,7 +29,7 @@ export default function ExperienceList() {
   if (error) return <p>{error}</p>;
 
   return (
-    <div className='experience'>
+    <div className='experience' id='experiences'>
       <h1 className='heading'>Experiences</h1>
       <ul className='grid'>
         {experiences.map((exp, i) => (

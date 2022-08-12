@@ -29,7 +29,7 @@ export default function ProjectList() {
   if (error) return <p>{error}</p>;
 
   return (
-    <div className='experience'>
+    <div className='experience' id='projects'>
       <h1 className='heading'>Projects</h1>
       <ul className='grid'>
         {projects.map((exp, i) => (
