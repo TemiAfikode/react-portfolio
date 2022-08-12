@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div style={{ marginTop: '3rem' }}>
-      <h2>About Me!</h2>
+      <h1>About Me!</h1>
 
       <p>
         Quisque felis ex, pellentesque vel elementum eu, bibendum vel massa.
@@ -12,7 +12,7 @@ export default function AboutMe() {
         dis parturient montes, nascetur ridiculus mus.
       </p>
 
-      <h3 id='skills'>My Skills</h3>
+      <h1 id='skills'>My Skills</h1>
 
       <ul>
         <li>PHP</li>

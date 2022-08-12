@@ -60,3 +60,15 @@ ul {
   font-size: 1.3rem;
   opacity: 0.7;
 }
+.contact-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-info span{
+  font-weight: 600;
+}
+.contact-info .contact-desc{
+  font-weight: 600;
+  font-size: 1.3rem;
+}

@@ -3,6 +3,7 @@ import ExperienceList from './Components/Experience/ExperienceList';
 import AboutMe from './Components/AboutMe';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact/index';
 
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <ExperienceList />
       <ProjectList />
+      <Contact />
     </div>
     <Footer />
     </>
