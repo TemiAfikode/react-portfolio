@@ -2,7 +2,7 @@ export default function ProjectItem({ values }) {
   return (
     <div className='card'>
       <div className='card-body'>
-        <h3 className='card-title mb-3'>{values.title}</h3>
+        <h2 className='card-title mb-3'>{values.title}</h2>
         <p>{values.content}</p>
         <div className='card-text pb-3'>
           {values.url && (

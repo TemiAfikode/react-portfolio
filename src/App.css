@@ -152,12 +152,10 @@ ul {
 .card-title {
   font-weight: 700;
   color: var(--primary-alt);
+  font-size: 1.5rem;
 }
 .exp-top {
   margin-bottom: 1rem;
-}
-.exp-top h2 {
-  font-size: 1.2rem;
 }
 .exp-top-body > p {
   opacity: 0.7;

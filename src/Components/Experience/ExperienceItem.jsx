@@ -5,7 +5,7 @@ export default function ExperienceItem({ values }) {
     <li className='card'>
       <div className='exp-card-content'>
         <div className='exp-top'>
-          <h2>{values.position}</h2>
+          <h2 className='card-title'>{values.position}</h2>
           <div className='exp-top-body'>
             <p>@{values.companyName}</p>
             <div>
