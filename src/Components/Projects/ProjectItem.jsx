@@ -3,6 +3,7 @@ export default function ProjectItem({ values }) {
     <div className='card'>
       <div className='card-body'>
         <h5 className='card-title mb-3'>{values.title}</h5>
+        <p>{values.content}</p>
         <div className='card-text pb-3'>
           {values.url && (
             <span>
