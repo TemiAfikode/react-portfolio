@@ -2,13 +2,8 @@
 
 :root {
   --text: #f5f6f7;
-  --bg-alt: #fff;
-  --fg: #444;
-  --fg-alt: #222;
   --primary: rgb(48, 108, 196);
   --primary-alt: rgb(128, 122, 232);
-  --primary-light: rgba(44, 93, 206, 0.1);
-  --container-shadow: 0 2px 4px rgb(0 0 0 / 10%);
   --bg: #030217;
 }
 
@@ -153,6 +148,10 @@ ul {
 .card:hover {
   background: rgba(0, 0, 0, 0.1);
   transform: scale(1.02);
+}
+.card-title {
+  font-weight: 700;
+  color: var(--primary-alt);
 }
 .exp-top {
   margin-bottom: 1rem;
