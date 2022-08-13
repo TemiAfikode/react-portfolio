@@ -1,3 +1,5 @@
+import { format } from 'date-fns/esm';
+
 export default function ExperienceItem({ values }) {
   return (
     <li className='card'>
@@ -7,9 +9,9 @@ export default function ExperienceItem({ values }) {
           <div className='exp-top-body'>
             <p>@{values.companyName}</p>
             <div>
-              <span>{values.startDate}</span>
+              <span>{format(new Date(values.startDate), 'MMMM, yyyy')}</span>
               <span>to</span>
-              <span>{values.endDate}</span>
+              <span>{format(new Date(values.endDate), 'MMMM, yyyy')}</span>
             </div>
           </div>
         </div>

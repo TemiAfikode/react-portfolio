@@ -103,6 +103,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .skills > ul li {
   background: var(--bg);
@@ -121,7 +122,8 @@ ul {
 }
 .skills > ul li img {
   width: 80px;
-  height: 45x;
+  height: 45px;
+  border-radius: 12px;
 }
 .skills > ul li p {
   padding-top: 0.5rem;

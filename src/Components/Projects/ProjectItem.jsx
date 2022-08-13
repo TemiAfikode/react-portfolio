@@ -1,7 +1,6 @@
 export default function ProjectItem({ values }) {
   return (
     <div className='card'>
-      <img src={values.image} className='card-img-top' alt='' />
       <div className='card-body'>
         <h5 className='card-title mb-3'>{values.title}</h5>
         <div className='card-text pb-3'>
@@ -20,7 +19,7 @@ export default function ProjectItem({ values }) {
           </span>
           <br />
           <span>
-            <span className='card-badge'>Type:</span> {values.title}
+            <span className='card-badge'>Stacks:</span> {values.type.title}
           </span>
         </p>
         <a href='#/' className='btn btn-primary'>
