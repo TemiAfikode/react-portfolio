@@ -7,7 +7,9 @@ export default function ProjectItem({ values }) {
           {values.url && (
             <span>
               <span className='card-badge'>View project: </span>
-              <a href={values.url}>{values.url}</a>
+              <a href={values.url} target='_blank' rel='noreferrer'>
+                {values.url}
+              </a>
             </span>
           )}
         </div>
@@ -22,7 +24,12 @@ export default function ProjectItem({ values }) {
             <span className='card-badge'>Stacks:</span> {values.type.title}
           </span>
         </p>
-        <a href='#/' className='btn btn-primary'>
+        <a
+          href={values.url}
+          target='_blank'
+          rel='noreferrer'
+          className='btn btn-primary'
+        >
           View Project Details
         </a>
       </div>
